@@ -1,0 +1,80 @@
+{
+    "titulo": "unicafam",
+    "programas": [
+        {
+            "programa": "Ciencia de Datos",
+            "descripcion": "Ciencia de Datos ¿Quieres ser el arquitecto del futuro tecnológico? En Unicafam, te ofrecemos un programa de Ciencias de Datos que te transformará en un experto en inteligencia artificial, inteligencia de negocios y desarrollo de aplicaciones. ¡Descubre cómo puedes revolucionar el mundo con datos!",
+            "matricula": "Desde $3.977.280*"
+        },
+        {
+            "programa": "Ingeniería Industrial",
+            "descripcion": "¿Te imaginas ser el cerebro detrás de cómo funcionan las grandes empresas? La Ingeniería Industrial en Unicafam te convierte en un maestro para hacer las cosas mejor. ¡Descubre cómo puedes optimizar procesos y transformar el mundo con tecnología, inteligencia artificial y robótica!",
+            "matricula": "Desde $4.312.076*"
+        },
+        {
+            "programa": "Ingeniería de Telecomunicaciones",
+            "descripcion": "Hola futuros ingenieros de telecomunicaciones! En Unicafam, te estamos esperando para sumergirte en el apasionante mundo de la ingeniería de telecomunicaciones. ¿Te imaginas ser el arquitecto de la tecnología que conecta al mundo? ¡Sigue leyendo y descubre por qué este programa es para ti!",
+            "matricula": "Desde $4.048.896*"
+        },
+        {
+            "programa": "Análisis y Gestión de Datos",
+            "descripcion": "Análisis y Gestión de Datos ¡Bienvenidos/as, futuros Analistas de Datos! En Unicafam, nuestro programa de Tecnología en Análisis y Gestión de Datos te prepara para enfrentar los desafíos del mundo digital. ¿Te imaginas convertir grandes volúmenes de datos en información valiosa? ¡Sigue leyendo y descubre cómo puedes transformar tu futuro con nosotros!",
+            "matricula": "Desde $2.598.490*"
+        },
+        {
+            "programa": "Gestión de Procesos Industriales",
+            "descripcion": "¿Te imaginas mejorando la eficiencia y sostenibilidad en la industria? En Unicafam, nuestro programa de Tecnología en Gestión de Procesos Industriales te ofrece las herramientas y conocimientos para liderar proyectos productivos y hacer una diferencia real. ¡Descubre cómo puedes transformar el mundo industrial con nosotros!",
+            "matricula": "Desde $ 2.568.660*"
+        },
+        {
+            "programa": "Mantenimiento de Equipos Biomédicos",
+            "descripcion": "¿Te apasiona la tecnología y sueñas con contribuir directamente al cuidado de la salud? ¡El programa de Tecnología en Mantenimiento de Equipos Biomédicos de Unicafam es tu oportunidad perfecta para combinar ambos intereses y convertirte en un héroe de la salud moderna!",
+            "matricula": "Desde $2.925.000*"
+        },
+        {
+            "programa": "Enfermería",
+            "descripcion": "En un mundo que cambia a la velocidad de la luz, la salud sigue siendo uno de los pilares más importantes. ¡Y tú puedes ser parte del cambio! Estudiar enfermería en Unicafam no solo te prepara para cuidar de las personas, sino también para liderar en un sector que necesita héroes todos los días. Si te imaginas haciendo la diferencia en la vida de alguien, este programa es para ti. Sigue leyendo y descubre todo lo que Unicafam tiene para ofrecerte.",
+            "matricula": "Desde $5.202.943*"
+        },
+        {
+            "programa": "Acondicionamiento Físico y Entrenamiento Deportivo",
+            "descripcion": "Acondicionamiento Físico y Entrenamiento Deportivo En Colombia, la pasión por el deporte y el bienestar físico está en constante crecimiento, lo que genera una demanda cada vez mayor por profesionales capacitados en acondicionamiento físico y entrenamiento deportivo. Si te apasiona el deporte y quieres ser parte de esta transformación, el programa de Tecnología en Acondicionamiento Físico y Entrenamiento Deportivo de Unicafam es para ti. Aquí no solo aprenderás sobre el deporte, sino también a mejorar la calidad de vida de las personas mientras haces lo que más te gusta.",
+            "matricula": "Desde $2.440.724*"
+        },
+        {
+            "programa": "Regencia de Farmacia",
+            "descripcion": "Regencia de Farmacia El sector farmacéutico está en plena expansión en Colombia, y con él, la demanda de profesionales capacitados que puedan garantizar un servicio de calidad y atención oportuna. Si te apasiona el mundo de la salud y los medicamentos, el programa de Tecnología en Regencia de Farmacia en Unicafam puede ser el camino ideal para ti. ¡Descubre por qué esta carrera es la elección perfecta para tu futuro!",
+            "matricula": "Desde $2.883.528*"
+        },
+        {
+            "programa": "Administración de Empresas",
+            "descripcion": "Administración de Empresas ¿Eres un apasionado del mundo de las empresas? ¿Te emociona la idea de crear tu propio negocio o liderar una organización que transforme el mundo? ¡Entonces el programa de Administración de Empresas de la Fundación Universitaria Cafam es perfecto para ti!",
+            "matricula": "Desde $4.124.107*"
+        },
+        {
+            "programa": "Contaduría Pública",
+            "descripcion": "Contaduría Pública ¿Te apasionan las finanzas y los datos empresariales? ¿Te motiva tomar decisiones clave para la sostenibilidad de una empresa? El programa de Contaduría Pública de Unicafam te brinda todas las herramientas y habilidades necesarias para lograrlo. Aprende a manejar los recursos financieros de una organización, aplica Normas Internacionales de Información Financiera, auditoría y sostenibilidad, y desarrolla competencias digitales y gerenciales. ¡Inicia a cumplir tu sueño ahora!",
+            "matricula": "Desde $3.544.863*"
+        },
+        {
+            "programa": "Negocios Internacionales",
+            "descripcion": "Negocios Internacionales ¿Te imaginas trabajando en empresas globales, explorando nuevas culturas y dominando varios idiomas? El programa de Negocios Internacionales de la Fundación Universitaria Cafam es tu puerta de entrada al emocionante mundo del comercio global. Aquí aprenderás todo lo necesario para triunfar en mercados internacionales, encontrando oportunidades y minimizando riesgos. ¡Empieza a cumplir tu sueño ahora!",
+            "matricula": "Desde $4.186.988*"
+        },
+        {
+            "programa": "Gestión Empresarial",
+            "descripcion": "Gestión Empresarial ¿Eres un emprendedor y quieres crear tu propia empresa? o ¿quieres hacer parte del equipo de las organizaciones más importantes del país? Iniciaremos por el programa de Tecnología en Gestión Empresarial (6 semestres), cuyo título te habilita para gestionar o coordinar las funciones más importantes de las empresas o incursionar en el desarrollo de tu propia iniciativa de negocio. Si decides continuar la carrera, los siguientes dos semestres, además de formarte a nivel profesional, te permitirán obtener las herramientas y habilidades necesarias para liderar las empresas que fomentan el crecimiento de nuestro país. Te podrás graduar como Administrador de Empresas. ¡Inicia a cumplir tu sueño ahora!",
+            "matricula": "Desde $2.341.063*"
+        },
+        {
+            "programa": "Administración Turística y Hotelera",
+            "descripcion": "¿Eres un apasionado de los viajes y sueñas con una carrera en la industria del turismo? Entonces el programa de Administración de Empresas Turísticas de Unicafam es perfecto para ti.",
+            "matricula": "Desde $ 4.292.117*"
+        },
+        {
+            "programa": "Tecnología en Gestión Gastronómica",
+            "descripcion": "¿Eres un apasionado de la cocina y sueñas con convertirte en un chef profesional? ¡Entonces Unicafam es el lugar perfecto para ti! Nuestro programa de Tecnología en Gestión Gastronómica te brindará las habilidades y conocimientos que necesitas para triunfar en la industria culinaria.",
+            "matricula": "Desde $3.632.699*"
+        }
+    ]
+}
