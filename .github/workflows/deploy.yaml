@@ -33,8 +33,8 @@ jobs:
 
     - name: Sync files to S3
       run: |
-        aws s3 sync ./build s3://my-static-website-bucket --delete \
+        aws s3 sync ./build s3://my-static-website-bucket-fsl-leonardo --delete \
           --exclude "node_modules/*" \
           --exclude ".git/*" \
           --exclude ".github/*"
-        aws s3 website s3://my-static-website-bucket/ --index-document index.html --error-document error.html
+        aws s3 website s3://my-static-website-bucket-fsl-leonardo/ --index-document index.html --error-document error.html
