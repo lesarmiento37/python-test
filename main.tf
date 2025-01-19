@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "static_website" {
   }
 }
 
-resource "aws_s3_bucket_public_access_block" "public_access" {
+resource "aws_s3_bucket_public_access_block" "static_website" {
   bucket             = aws_s3_bucket.static_website.id
   block_public_acls  = false
   block_public_policy = false
@@ -30,6 +30,22 @@ resource "aws_s3_bucket_public_access_block" "public_access" {
   ignore_public_acls = false
 }
 
+resource "aws_s3_bucket_ownership_controls" "static_website" {
+  bucket = aws_s3_bucket.static_website.id
+  rule {
+    object_ownership = "BucketOwnerPreferred"
+  }
+}
+
+resource "aws_s3_bucket_acl" "example" {
+  depends_on = [
+    aws_s3_bucket_ownership_controls.static_website,
+    aws_s3_bucket_public_access_block.static_website,
+  ]
+
+  bucket = aws_s3_bucket.static_website.id
+  acl    = "public-read"
+}
 # Upload index.html and error.html to the bucket (optional)
 
 # S3 Bucket Policy to allow public access
@@ -51,8 +67,8 @@ resource "aws_s3_bucket_policy" "static_website_policy" {
 
 resource "aws_s3_bucket_object" "index" {
   bucket = aws_s3_bucket.static_website.id
-  key    = "index.html"
-  source = "index.html" # Ensure index.html is in the same directory as this Terraform file
+  key    = "public/index.html"
+  source = "public/index.html" # Ensure index.html is in the same directory as this Terraform file
   content_type = "text/html"
 }
 
