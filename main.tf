@@ -4,7 +4,7 @@ provider "aws" {
 
 # S3 Bucket resource
 resource "aws_s3_bucket" "static_website" {
-  bucket = "my-static-website-bucket-fsl-leonardo" # Change this to your desired bucket name
+  bucket = "my-static-website-bucket-fsl-leonardo-${var.environment}" # Change this to your desired bucket name
 
   # Enable website hosting
   website {
@@ -67,4 +67,10 @@ resource "aws_s3_bucket_policy" "static_website_policy" {
 
 output "website_endpoint" {
   value = aws_s3_bucket.static_website.website_endpoint
+}
+
+variable environment {
+  type        = string
+  default     = ""
+  description = "description"
 }
