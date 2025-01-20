@@ -17,30 +17,31 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: ${{ github.event.inputs.branch }}
-  
-      - name: Print Environment
-          run: |
-            echo "Manually triggered job for branch: ${{ github.event.inputs.branch }}"
+
+      - name: Run Job
+        run: |
+          echo "Manually triggered job for branch: ${{ github.event.inputs.branch }}"
+
   
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-  
+
       - name: Install dependencies
         run: npm install
-  
+
       - name: Install prettier
         run: npm install --save-dev prettier
-  
+
       - name: Run linter (ESLint)
         run: npm run lint
-  
+
       - name: Run formatter (Prettier)
         run: npm run prettier
-  
+
       - name: Run tests (Jest)
         run: CI=true npm run test
-  
+
       - name: Build application
         run: npm run build
