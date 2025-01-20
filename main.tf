@@ -37,7 +37,7 @@ resource "aws_s3_bucket_ownership_controls" "static_website" {
   }
 }
 
-resource "aws_s3_bucket_acl" "example" {
+resource "aws_s3_bucket_acl" "static_website" {
   depends_on = [
     aws_s3_bucket_ownership_controls.static_website,
     aws_s3_bucket_public_access_block.static_website,
@@ -63,20 +63,6 @@ resource "aws_s3_bucket_policy" "static_website_policy" {
       }
     ]
   })
-}
-
-resource "aws_s3_bucket_object" "index" {
-  bucket = aws_s3_bucket.static_website.id
-  key    = "public/index.html"
-  source = "public/index.html" # Ensure index.html is in the same directory as this Terraform file
-  content_type = "text/html"
-}
-
-resource "aws_s3_bucket_object" "error" {
-  bucket = aws_s3_bucket.static_website.id
-  key    = "error.html"
-  source = "error.html" # Ensure error.html is in the same directory as this Terraform file
-  content_type = "text/html"
 }
 
 output "website_endpoint" {
